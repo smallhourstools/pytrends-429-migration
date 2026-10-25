@@ -33,7 +33,7 @@ pytrends' `trending_searches` and `today_searches` depend on endpoints Google ha
 python3 trending_rss.py --geo US
 ```
 
-It prints the title, the approximate traffic and the publish date of each item. Standard library only.
+It prints the title, the approximate traffic and the publish date of each item. Standard library only. The feed is short, about 10 trends per country, and its traffic is text like `200+`. If you want the full list Google Trends shows for the day, with search volume and growth, the Actor in section 3 has a Trending Now mode for that. It is optional.
 
 ## 3. Optional: let someone else wait for Google (`apify_trends.py`)
 
